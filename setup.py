@@ -3,18 +3,19 @@
 from setuptools import setup
 
 setup(
-    name = 'python-sysfs',
+    name = 'python-rsysfs',
     version = '1',
-    author = 'The PonyCloud Team',
-    description = ('simple sysfs interface'),
-    license = 'proprietary',
+    author = 'ASMik and The PonyCloud Team',
+    author_email = 'cpp.create@gmail.com'
+    description = ('simple remote sysfs interface'),
+    license = 'MIT',
     keywords = 'system',
-    url = 'http://github.com/ponycloud/python-sysfs',
-    packages=['sysfs'],
+    url = 'http://github.com/ASMfreaK/python-rsysfs',
+    packages=['rsysfs'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Topic :: System',
-        'License :: Other/Proprietary License',
+        'License :: OSI Approved :: MIT License',
     ],
 )
 
