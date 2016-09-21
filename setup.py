@@ -6,7 +6,7 @@ setup(
     name = 'python-rsysfs',
     version = '1',
     author = 'ASMik and The PonyCloud Team',
-    author_email = 'cpp.create@gmail.com'
+    author_email = 'cpp.create@gmail.com',
     description = ('simple remote sysfs interface'),
     license = 'MIT',
     keywords = 'system',
